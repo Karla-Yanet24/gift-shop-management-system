@@ -34,6 +34,7 @@ This application was developed to centralize business information and improve da
 ## 🎯 Solution
 
 Developed a web-based management system that allows the business owner to manage customers, products, orders, payments and order status from a single platform.
+
 ---
 
 ## 📌 System Modules
@@ -99,8 +100,6 @@ Developed a web-based management system that allows the business owner to manage
 ---
 
 ## 📂 Project Structure
-
----
 
 gift-shop-management-system/
 
