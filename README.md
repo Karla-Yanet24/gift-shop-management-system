@@ -1,18 +1,40 @@
 # 🎁 Gift Shop Management System
 
-A web-based management system developed to organize customer orders, payments and inventory for a personalized gifts and flower shop.
+Gift Shop Management System is a web application developed to manage the daily operations of a personalized gifts and flower arrangement business.
+
+The system centralizes customer information, order tracking, payments and product management, helping improve organization and efficiency.
+
+---
+
+## 🎯 Objectives
+
+✔ Manage customer information
+
+✔ Register and update orders
+
+✔ Track order status
+
+✔ Manage products
+
+✔ Register payments
+
+✔ Improve the organization of the business
 
 ---
 
 ## ✨ Features
 
+✔ User authentication.
+
 ✔ Customer Management
 
 ✔ Product Management
 
-✔ Order Tracking
+✔ Order Management
 
 ✔ Payment Registration
+
+✔ Order status tracking
 
 ✔ Administrative Panel
 
@@ -21,7 +43,9 @@ A web-based management system developed to organize customer orders, payments an
 ## 🛠 Technologies
 
 - Java
+- NetBeans IDE
 - MySQL
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Bootstrap
 - JDBC
