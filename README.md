@@ -49,3 +49,76 @@ The system centralizes customer information, order tracking, payments and produc
 - CSS3
 - Bootstrap
 - JDBC
+
+---
+
+## 📂 Project Structure
+
+---
+
+gift-shop-management-system/
+
+├── codigo/
+├── base_datos/
+├── documentos/
+├── capturas/
+└── README.md
+
+---
+
+## 🗄 Database
+
+The database script is located in:
+
+├── base_datos/
+
+It includes all required tables to run the application.
+
+---
+
+## 📖 Documentation
+
+✔ Installation Manual
+
+✔ Administrator User Manual
+
+---
+
+## 📷 Screenshots
+
+✔ Login
+
+✔ Dashboard
+
+✔ Customer Management
+
+✔ Product Management
+
+✔ Order Registration
+
+✔ Payment Module
+
+---
+
+## 🚀 Future Improvements
+
+✔ Responsive interface
+
+✔ Role-based authentication
+
+✔ Sales reports
+
+✔ Email notifications
+
+✔ WhatsApp integration
+
+✔ Cloud deployment
+
+---
+
+## 👩‍💻 Author
+
+Karla Santos Villarreal
+Systems Engineering Student
+
+
