@@ -6,19 +6,49 @@ The system centralizes customer information, order tracking, payments and produc
 
 ---
 
-## 🎯 Objectives
+## 📑 Table of Contents
 
-✔ Manage customer information
+- Overview
+- Problem
+- Solution
+- System Modules
+- Features
+- Technologies
+- Installation
+- Screenshots
+- Documentation
+- Future Improvements
+- License
+- Author
 
-✔ Register and update orders
+---
 
-✔ Track order status
+## 💡 Problem
 
-✔ Manage products
+Managing orders manually made it difficult to keep track of customers, payments and deliveries.
 
-✔ Register payments
+This application was developed to centralize business information and improve daily operations.
 
-✔ Improve the organization of the business
+---
+
+## 🎯 Solution
+
+Developed a web-based management system that allows the business owner to manage customers, products, orders, payments and order status from a single platform.
+---
+
+## 📌 System Modules
+
+✔ Customer Management
+
+✔ Product Management
+
+✔ Order Management
+
+✔ Payment Registration
+
+✔ Dashboard
+
+✔ User Authentication
 
 ---
 
@@ -49,6 +79,22 @@ The system centralizes customer information, order tracking, payments and produc
 - CSS3
 - Bootstrap
 - JDBC
+
+---
+
+## ⚙ Installation
+
+1. Clone the repository.
+
+2. Import the project into NetBeans.
+
+3. Create the MySQL database.
+
+4. Import the SQL script.
+
+5. Update the database connection.
+
+6. Run the application.
 
 ---
 
@@ -113,6 +159,12 @@ It includes all required tables to run the application.
 ✔ WhatsApp integration
 
 ✔ Cloud deployment
+
+---
+
+## 📄 License
+
+This project was developed for educational purposes.
 
 ---
 
