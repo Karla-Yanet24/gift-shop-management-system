@@ -4,6 +4,9 @@ Gift Shop Management System is a web application developed to manage the daily o
 
 The system centralizes customer information, order tracking, payments and product management, helping improve organization and efficiency.
 
+![inicio](capturas/inicio.png)
+
+
 ---
 
 ## 📑 Table of Contents
@@ -12,6 +15,7 @@ The system centralizes customer information, order tracking, payments and produc
 - Problem
 - Solution
 - System Modules
+- Target Users
 - Features
 - Technologies
 - Installation
@@ -19,6 +23,7 @@ The system centralizes customer information, order tracking, payments and produc
 - Documentation
 - Future Improvements
 - License
+- Skills Demonstrated
 - Author
 
 ---
@@ -50,6 +55,14 @@ Developed a web-based management system that allows the business owner to manage
 ✔ Dashboard
 
 ✔ User Authentication
+
+---
+
+👨‍💼 Target Users
+
+- Business owners
+- Store administrators
+- Sales staff
 
 ---
 
@@ -132,16 +145,22 @@ It includes all required tables to run the application.
 ## 📷 Screenshots
 
 ✔ Login
+![inicio](capturas/inicio.png)
 
 ✔ Dashboard
+![dashboard](capturas/dashboard.png)
 
 ✔ Customer Management
+![clientes](capturas/registro_clientes.png)
 
 ✔ Product Management
+![productos](capturas/admin_productos.png)
 
 ✔ Order Registration
+![historial](capturas/historial.png)
 
 ✔ Payment Module
+![pedidos](capturas/admin_pedidos.png)
 
 ---
 
@@ -167,14 +186,24 @@ This project was developed for educational purposes.
 
 ---
 
+## 📈 Skills Demonstrated
+
+- Object-Oriented Programming (OOP)
+- CRUD Operations
+- Database Design
+- MySQL Integration
+- User Interface Design
+- Software Documentation
+- Problem Solving
+
+---
+
 ## 👩‍💻 About the Author
 
 Karla Santos Villarreal
 
 Systems Engineering Student at UNTELS.
-
 Passionate about technology, software development and digital solutions that solve real-world problems.
-
 Currently building projects to strengthen my professional portfolio.
 
 
