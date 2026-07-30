@@ -167,9 +167,14 @@ This project was developed for educational purposes.
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 About the Author
 
 Karla Santos Villarreal
-Systems Engineering Student
+
+Systems Engineering Student at UNTELS.
+
+Passionate about technology, software development and digital solutions that solve real-world problems.
+
+Currently building projects to strengthen my professional portfolio.
 
 
