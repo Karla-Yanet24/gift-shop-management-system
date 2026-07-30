@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/FloreriaPrimavera">
+  <Resources>
+    <PreResources base="C:/FloreriaUploads" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/assets/img/floreria"/>
+    <PreResources base="C:/FloreriaUploads/comprobantes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/assets/img/comprobantes"/>
+  </Resources>
+</Context>

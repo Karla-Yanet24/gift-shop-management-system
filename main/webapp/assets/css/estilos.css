@@ -1,0 +1,164 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 oct. 2025, 14:42:07
+    Author     : USER
+*/
+
+/* ===== PALETA DE MARCA — Florería Primavera ===== */
+:root {
+  --fp-rosa:        #E8AABF;   /* rosa pétalo — color primario */
+  --fp-rosa-oscuro:  #C97B95;
+  --fp-verde:        #6B8F71;  /* verde salvia — secundario */
+  --fp-verde-oscuro:  #4F6B54;
+  --fp-crema:        #FBF6F0;  /* fondo cálido */
+  --fp-texto:        #3A2E2E;
+  --fp-dorado:       #D9A24B;  /* acentos, precios, badges */
+
+  --fp-radius: 14px;
+  --fp-shadow: 0 6px 20px rgba(58, 46, 46, 0.08);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--fp-crema);
+  color: var(--fp-texto);
+}
+
+h1, h2, h3, h4, .navbar-brand, .logo-marca {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: var(--fp-verde-oscuro);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #FFFFFF !important;
+  box-shadow: var(--fp-shadow);
+  padding: 0.9rem 1.5rem;
+}
+.navbar-brand {
+  font-size: 1.6rem;
+  color: var(--fp-rosa-oscuro) !important;
+}
+.nav-link {
+  font-weight: 500;
+  color: var(--fp-texto) !important;
+  margin: 0 0.4rem;
+  transition: color .2s ease;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--fp-rosa-oscuro) !important;
+}
+
+/* ===== BOTONES (sobrescribe Bootstrap sin tocar sus clases) ===== */
+.btn-primary {
+  background-color: var(--fp-rosa-oscuro);
+  border-color: var(--fp-rosa-oscuro);
+  border-radius: 30px;
+  padding: 0.55rem 1.6rem;
+  font-weight: 500;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn-primary:hover {
+  background-color: var(--fp-rosa);
+  border-color: var(--fp-rosa);
+  transform: translateY(-2px);
+  box-shadow: var(--fp-shadow);
+}
+.btn-success {
+  background-color: var(--fp-verde);
+  border-color: var(--fp-verde);
+  border-radius: 30px;
+}
+.btn-success:hover {
+  background-color: var(--fp-verde-oscuro);
+  border-color: var(--fp-verde-oscuro);
+}
+.btn-warning {           /* tu botón "Procesar compra" */
+  background-color: var(--fp-dorado);
+  border-color: var(--fp-dorado);
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.btn-warning:hover { 
+    background-color: #c48a36; 
+    border-color: #c48a36; 
+    color: #fff;
+}
+
+/* ===== CARDS de producto ===== */
+.card {
+  border: none;
+  border-radius: var(--fp-radius);
+  box-shadow: var(--fp-shadow);
+  overflow: hidden;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(58, 46, 46, 0.14);
+}
+.card img:not(.table-img) {
+  border-radius: var(--fp-radius) var(--fp-radius) 0 0;
+  object-fit: cover;
+}
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+}
+.card .precio {
+  font-family: 'Playfair Display', serif;
+  color: var(--fp-dorado);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+
+/* ===== BADGES (categorías, estados de pedido) ===== */
+.badge {
+  border-radius: 20px;
+  padding: 0.4em 0.9em;
+  font-weight: 500;
+}
+.bg-fp-verde {
+    background-color: var(--fp-verde) !important;
+}
+.bg-fp-rosa {
+    background-color: var(--fp-rosa);
+}
+
+.bg-fp-rosa-oscuro {
+    background-color: var(--fp-rosa-oscuro);
+}
+
+
+/* ===== TABLAS (carrito, listados admin) ===== */
+.table thead {
+  background-color: var(--fp-verde-oscuro) !important;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(232, 170, 191, 0.06);
+}
+
+/* ===== FORMULARIOS ===== */
+.form-control:focus, .form-select:focus {
+  border-color: var(--fp-rosa);
+  box-shadow: 0 0 0 0.2rem rgba(232, 170, 191, 0.25);
+}
+.form-label { font-weight: 500; color: var(--fp-verde-oscuro); }
+
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: var(--fp-verde-oscuro);
+  color: #f5f0ec;
+  padding: 2.5rem 0;
+}
+footer a { color: #f5f0ec; text-decoration: none; }
+footer a:hover { color: var(--fp-rosa); }
