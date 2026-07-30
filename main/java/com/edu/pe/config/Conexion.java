@@ -10,8 +10,8 @@ import java.sql.SQLException;
 
 public class Conexion {
     private static String database = "floreria_primavera";
-    private static String username = "root";
-    private static String password = "12345678";
+    private static String username = "your_username";
+    private static String password = "your_password";
     private static String url = "jdbc:mysql://localhost/" + database;
     
     public static Connection getConnection(){
