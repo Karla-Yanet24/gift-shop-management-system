@@ -117,9 +117,13 @@ Developed a web-based management system that allows the business owner to manage
 gift-shop-management-system/
 
 ├── codigo/
+
 ├── base_datos/
+
 ├── documentos/
+
 ├── capturas/
+
 └── README.md
 
 ---
